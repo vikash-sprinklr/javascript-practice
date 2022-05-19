@@ -5,5 +5,5 @@ function check(){
         console.log("from loop")
     },0)
 }
-check()
+
 console.log("end")
