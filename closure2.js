@@ -22,7 +22,11 @@ newFunction()
 // this data stored in backpack is known as PLSR data
 // Persistent Lexical Stored Referenced
 
-// this backpack is known as CLOSURE 
+// this backpack is known as CLOSURE or Closed Over Variable Environment
 
 // lexical scoping is the concept which says that functions get a connection to their surrounding memory
 // in which they were saved
+
+// this is a special property of functions in javascript that when they are born
+// inside some other function and returned, they get a special backup or closure containing the variables
+// in its surroundings,
